@@ -48,6 +48,25 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        BootLeft {
+            bindings = <&bootloader>;
+            key-positions = <0 5 33>;
+        };
+
+        BootRight {
+            bindings = <&bootloader>;
+            key-positions = <7 36 12>;
+        };
+
+        LightToggle {
+            bindings = <&rgb_ug RGB_TOG>;
+            key-positions = <0 1 2>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -60,7 +79,7 @@
                                      &lt 2 DELETE  &lt 1 BACKSPACE  &mt LSHFT TAB                                                                &mt RSHFT SPACE  &lt 1 SPACE  &lt 2 ENTER
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         number {
