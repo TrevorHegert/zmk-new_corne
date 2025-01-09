@@ -293,3 +293,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [0, 5, 33]
+  k: $$mdi:progress-download$$
+- p: [7, 36, 12]
+  k: $$mdi:progress-download$$
+- p: [0, 1, 2]
+  k: RGB TOG
