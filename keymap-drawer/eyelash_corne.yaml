@@ -53,7 +53,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - $$mdi:arrow-up-bold$$
-  - Ctl+Z
+  - Ctl+$$mdi:keyboard-tab$$
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - KP ASTERISK
@@ -106,8 +106,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&res_info'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mac_hc_claim'
+  - '&mac_sc_claim'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
