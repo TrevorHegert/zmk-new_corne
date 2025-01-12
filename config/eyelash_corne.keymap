@@ -97,7 +97,7 @@
             bindings = <
 &kp GRAVE              &kp Q  &kp W  &kp E         &kp R            &kp T                                       &mmv MOVE_UP                     &kp Y            &kp U        &kp I        &kp O    &kp P     &kp BSPC
 &mt LEFT_ALT CAPSLOCK  &kp A  &kp S  &kp D         &kp F            &kp G                       &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp H            &kp J        &kp K        &kp L    &kp APOS  &kp SEMI
-&mt LCTRL LS(TAB)      &kp Z  &kp X  &kp C         &kp V            &kp B          &mkp RCLK                    &mmv MOVE_DOWN                   &kp N            &kp M        &kp COMMA    &kp DOT  &kp FSLH  &mt RIGHT_GUI BACKSLASH
+&mt LCTRL LS(TAB)      &kp Z  &kp X  &kp C         &kp V            &kp B          &mkp RCLK                    &mmv MOVE_DOWN                   &kp COMMA        &kp N        &kp M        &kp DOT  &kp FSLH  &mt RIGHT_GUI BACKSLASH
                                      &lt 2 DELETE  &lt 1 BACKSPACE  &mt LSHFT TAB                                                                &mt RSHFT SPACE  &lt 1 SPACE  &lt 2 ENTER
             >;
 
