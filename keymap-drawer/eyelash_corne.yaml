@@ -36,9 +36,9 @@ layers:
   - B
   - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: ',', s: <}
   - N
   - M
-  - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: \, h: RIGHT GUI, s: '|'}
