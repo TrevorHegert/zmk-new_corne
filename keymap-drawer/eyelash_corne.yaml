@@ -43,12 +43,12 @@ layers:
   - {t: /, s: '?'}
   - {t: \, h: RIGHT GUI, s: '|'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: macros}
-  - {t: '$$mdi:backspace$$', h: number}
+  - {t: '$$mdi:backspace$$', h: numbers}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '$$mdi:keyboard-space$$', h: number}
+  - {t: '$$mdi:keyboard-space$$', h: numbers}
   - {t: '$$mdi:keyboard-return$$', h: macros}
-  number:
+  numbers:
   - $$mdi:keyboard-esc$$
   - Ctl+C
   - Ctl+V
@@ -140,13 +140,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Settings, type: held}
+  - {t: settings, type: held}
   - Ctl+Gui+$$mdi:arrow-left-bold$$
   - Gui+Ctl+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: Settings, type: held alternate}
-  Settings:
+  - {t: settings, type: held alternate}
+  settings:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
