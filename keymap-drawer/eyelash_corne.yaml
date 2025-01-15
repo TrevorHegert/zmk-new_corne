@@ -53,7 +53,7 @@ layers:
   - Ctl+C
   - Ctl+V
   - $$mdi:arrow-up-bold$$
-  - Ctl+$$mdi:keyboard-tab$$
+  - $$mdi:keyboard-tab$$
   - HOME
   - {t: '$$mdi:transfer$$', type: trans}
   - KP ASTERISK
@@ -77,7 +77,7 @@ layers:
   - {t: '6', s: ^}
   - +
   - {t: '$$mdi:backspace$$', type: backspace}
-  - RGB TOG
+  - $$mdi:keyboard-tab-reverse$$
   - RGB HUI
   - RGB BRI
   - Ctl+A
@@ -126,8 +126,8 @@ layers:
   - '&bill_1_6_480'
   - '&bill_1_6_520'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
