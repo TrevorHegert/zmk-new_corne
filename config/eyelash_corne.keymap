@@ -132,7 +132,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans                                     &trans          &res_info      &mac_hc_claim  &mac_sc_claim  &trans         &trans         &trans
 &trans  &trans  &trans  &trans  &trans                  &trans                             &trans  &trans  &trans  &bill_1_6_320  &bill_1_6_400  &bill_1_6_440  &bill_1_6_480  &bill_1_6_520  &trans
-&trans  &trans  &trans  &trans  &trans                  &m_sum                   &trans            &trans          &trans         &trans         &trans         &trans         &trans         &trans
+&m_sum  &trans  &trans  &trans  &trans                  &m_sum                   &trans            &trans          &trans         &trans         &trans         &trans         &trans         &trans
                         &mo 3   &kp LC(LG(LEFT_ARROW))  &kp LG(LC(RIGHT_ARROW))                                    &trans         &trans         &mo 3
             >;
 
