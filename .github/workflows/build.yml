@@ -8,4 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-22.04
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    steps:
+      - name: Checkout ZMK repository
+        uses: actions/checkout@v3
+
+      - name: Build ZMK Firmware
+        uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
